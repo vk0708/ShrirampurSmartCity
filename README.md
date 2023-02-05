@@ -4,6 +4,7 @@
 Particular city and helps all the users who just visits our website. This project made for ‘Shrirampur’ city.
 [Diploma final year project]
 
+# Abstract
   If you are desirous to give a web based platform to your city to be showcased for
 all it has in terms of unique business, places, jobs, bus routes, emergency information, historical
 places, static and dynamic maps provided city over view, political and social information, things
@@ -24,6 +25,7 @@ of tourists to get the hospitality facilities/in case of jobseekers to get the i
 available job details they need to give their ID&PASSWORD for security purpose and AC.NO
 only at the time of transactional providence.
 
+# About Project
    City Guide is an essential whenever we are visiting a particular city. It gives us the valuable
 information about the city and saves the time. Our project laid a web based platform for the city guide and
 can search every place in the city without taking the help of any personal guide. You can search a city for
