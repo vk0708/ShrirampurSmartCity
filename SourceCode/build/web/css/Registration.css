@@ -1,0 +1,76 @@
+
+input{
+       width: 300px;
+       padding: 10px;
+       border-radius: 33px;
+       outline: 8px;
+}
+#ss{
+    width: 185px;
+       padding: 10px;
+       border-radius: 33px;
+       outline: 8px;
+}
+#st{
+        width: 64px;
+       padding: 10px;
+       border-radius: 33px;
+    
+}
+
+.form h2{
+  color: black;
+  text-transform: uppercase;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+#select[id=select]{
+    
+    width: 300px;
+    padding: 10px;
+    border-radius: 33px;
+    outline: 8px;
+}
+#gen{
+   color:  black;
+    
+}
+#rd{
+    width: 6%;
+     padding: 10px 0px;
+   margin-left: 27px;
+}
+
+
+#but{
+    
+    width: 150px;
+    padding: 10px;
+    background-color: lightgreen;
+        color: black;
+    
+}
+#as{
+    width: 100%;
+    
+    opacity: 1;
+    padding: -3px 0px;
+    
+}
+.form{
+    
+    text-align: right;
+    margin: 30px 100px;
+    
+}
+#submit{
+    width: 100px;
+      padding: 10px 0px;
+      background-image: linear-gradient(to right,#649bff,#0070fa,#649bff);
+          color: white;
+          
+}
+
+
+            

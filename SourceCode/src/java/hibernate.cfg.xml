@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/city</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.pool_size">20</property>
+    <property name="hibernate.show_sql">true</property>
+    <property name="hibernate.hbm2ddl.auto">update</property>
+    <property name="hibernate.current_session_context_class">thread</property>
+    <mapping class="com.model.StudentModel"/>
+    <mapping class="com.model.TouristModel"/>
+    <mapping class="com.model.JobseekerModel"/>
+    <mapping class="com.model.BusinessmanModel"/>
+    <mapping class="com.model.ContactModel"/>
+    <mapping class="com.model.Admin.HotelModel"/>
+    <mapping class="com.model.Admin.InstituteModel"/>
+    <mapping class="com.model.Admin.CollegeModel"/>
+    <mapping class="com.model.Admin.NewsModel"/>
+    <mapping class="com.model.Admin.PlaceModel"/>
+    <mapping class="com.model.Admin.PostJobModel"/>
+  </session-factory>
+</hibernate-configuration>

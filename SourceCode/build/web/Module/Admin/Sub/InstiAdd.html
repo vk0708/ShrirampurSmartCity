@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Add Institute</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../../../css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="AddCSS.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet' type='text/css'>
+        <style>
+            body{
+                background: none;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <form action="../../../InstiRegister" method="GET">
+	<div class="mainheader">
+		<div class="logo">
+			<img src="../../../images/adminlogo.png">
+		</div>
+
+		<nav>
+			<a href="../AdminIndex.html">home</a>
+			<a href="../Edit/NewsDetails.jsp">Edit News</a>
+                        <a href="../Edit/HotelDeatils.jsp">Edit Hotels</a>
+                        <a href="../Edit/PlaceDetails.jsp">Edit Places</a>
+			
+                                <li class="dropdown">
+					<a class="dropbtn" style="color: red">C/I</a>
+               			 <div class="drop">
+                                    <a href="../Edit/CollegeDetails.jsp">Edit Colleges</a>             
+                                    <a href="../Edit/InstDetails.jsp">Edit Institutes</a>
+               			 </div>
+                        
+				<li class="dropdown">
+					<a class="dropbtn">View users</a>
+               			 <div class="drop">
+                                    <a href="../../Student/detail.jsp">Student</a>             
+                                    <a href="../../Tourist/detail.jsp">Tourist</a>
+                                    <a href="../../Jobseeker/detail.jsp">Jobseeker</a>
+                                    <a href="../../Businessman/detail.jsp">Businessman</a>
+               			 </div>
+                                </li>  
+                        <a href="../msg.jsp">Msgs</a>
+		</nav>
+		<div class="menubtn">
+			<a href="../../../Login/Login.jsp"><button>Logout</button></a>
+		</div>
+	</div>                   
+            
+        <div class='login'>
+          <h2>Add Institute</h2>
+          <input name="name" placeholder="Name of Institute" type="text" autocomplete="off">
+          <input name="types" type="text" autocomplete="off" placeholder="Type of Institute e.g. Classes/MSCIT/Science C/diploma C/Music etc.">
+          <input name="addr" placeholder='Institute Address' type="text">  <br>   <br>   
+          <input class='animated' type='submit' value='Add Institute'>
+          <a class='forgot' href='../Edit/InstDetails.jsp'>View Institute</a>
+        </div>
+              
+            </form>
+         </header>    
+    </body>
+</html>

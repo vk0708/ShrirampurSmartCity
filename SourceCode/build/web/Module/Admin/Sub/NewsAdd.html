@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>Add News</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../../../css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="AddCSS.css" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet' type='text/css'>
+        <style>
+            body{
+                background: none;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <form action="../../../NewsRegister" method="GET">
+	<div class="mainheader">
+		<div class="logo">
+			<img src="../../../images/adminlogo.png">
+		</div>
+
+		<nav>
+			<a href="../AdminIndex.html">home</a>
+			<a href="../Edit/NewsDetails.jsp">Edit News</a>
+                        <a href="../Edit/HotelDeatils.jsp">Edit Hotels</a>
+                        <a href="../Edit/PlaceDetails.jsp">Edit Places</a>
+			
+                                <li class="dropdown">
+					<a class="dropbtn">C/I</a>
+               			 <div class="drop">
+                                    <a href="../Edit/CollegeDetails.jsp">Edit Colleges</a>             
+                                    <a href="../Edit/InstDetails.jsp">Edit Institutes</a>
+               			 </div>
+                        
+				<li class="dropdown">
+					<a class="dropbtn">View users</a>
+               			 <div class="drop">
+                                    <a href="../../Student/detail.jsp">Student</a>             
+                                    <a href="../../Tourist/detail.jsp">Tourist</a>
+                                    <a href="../../Jobseeker/detail.jsp">Jobseeker</a>
+                                    <a href="../../Businessman/detail.jsp">Businessman</a>
+               			 </div>
+                                </li>  
+                        <a href="../msg.jsp">Msgs</a>
+		</nav>
+		<div class="menubtn">
+			<a href="../../../Login/Login.jsp"><button>Logout</button></a>
+		</div>
+	</div>                   
+            
+        <div class='login'>
+          <h2>Add News</h2>
+          <input name="typ" placeholder="Type of news e.g. Sport/politics etc." type="text" autocomplete="off">
+          <input name="headl" placeholder='Headline' type="text">
+          <textarea name="dis" placeholder="Description"></textarea>
+          <br><br>      
+          <input class="animated" type="submit" value="Publish">
+          <a class='forgot' href='../Edit/NewsDetails.jsp'>View News</a>
+        </div>
+              
+            </form>
+         </header>    
+    </body>
+</html>

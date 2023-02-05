@@ -1,0 +1,164 @@
+@font-face {
+	font-family: "Linux Libertine";
+	src: url("fonts/LinLibertine_RZ.woff") format('woff');
+}
+html {
+	font-family: sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+body {
+	margin: 0;
+}
+article,footer,header {
+	display: block;
+}
+
+a {
+	background-color: transparent;
+}
+a:active,a:hover {
+	outline: 0;
+}
+b,strong {
+	font-weight: bold;
+}
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+img {
+	border: 0;
+	max-width: 100%;
+}
+
+html {
+	color: #222;
+	font-size: 1em;
+	line-height: 1.4;
+}
+::-moz-selection {
+	background: #b3d4fc;
+	text-shadow: none;
+}
+::selection {
+	background: #b3d4fc;
+	text-shadow: none;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	color: #000;
+	background: none;
+	font-weight: normal;
+	margin: 0;
+	overflow: hidden;
+	padding-top: 0.5em;
+	padding-bottom: 0.17em;
+}
+.article h1 {
+	font-family: 'Linux Libertine','Georgia','Times',serif;
+	border-bottom: 1px solid #a2a9b1;
+}
+.article h2 {
+	font-size: 1.6em;
+	margin: 0.5em 0 0.5em 0;
+	font-family: 'Linux Libertine','Georgia','Times',serif;
+	border-bottom: 1px solid #a2a9b1;
+	line-height: 1.4em;
+	padding-bottom: 0em;
+}
+.article h3 {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+.article p.roleNote {
+	padding: 1em 0 0 1.6em;
+	font-style: italic;
+}
+p.siteSub {
+	font-size: 92%;
+}
+
+h1 {
+	line-height: 1.3;
+	margin-bottom: 0.25em;
+	padding: 0;
+	letter-spacing: 0;
+	font-size: 2.3em;
+}
+a, a:visited {
+	color: #0645ad;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+.sidebar {
+	float: left;
+	width: 9em;
+	padding: 3px 1.5em 10px 1.3em;
+	position: absolute;
+}
+
+div.articleRight {
+	border: 1px solid #c8ccd1;
+	padding: 3px;
+	float: right;
+	background-color: #f8f9fa;
+	font-size: 94%;
+	text-align: center;
+	overflow: hidden;
+	line-height: 1.4em;
+	padding: 3px;
+	font-size: 94%;
+	margin: 0 0 5px 15px;
+	text-align: left;
+}
+div.articleRightInner {
+	border: 1px solid #c8ccd1;
+	padding: 3px;
+	background-color: #f8f9fa;
+	font-size: 94%;
+	text-align: center;
+	overflow: hidden;
+}
+.logo {
+	margin-bottom: 20px;
+}
+.navigation {
+	padding: 0.15em 0 0 0.45em;
+}
+.mainsection {
+	margin: 0 0 0 11em;
+}
+
+.article {
+	padding: 1.25em 1.5em 1.5em 1.5em;
+	border-left: 1px solid #a7d7f9;
+	background: #FFF;
+	line-height: 1.6;
+	font-size: 0.875em;
+	border-top: 1px solid #a7d7f9;
+	border-bottom: 1px solid #a7d7f9;
+}
+.article p {
+	line-height: inherit;
+	margin: 0.5em 0;
+}
+.contentsHeader {
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+.pagefooter {
+	padding: 1.5em 1.3em 2em;
+	font-size: 75%;
+	line-height: 2em;
+}
+.pagefooter a {
+	display: inline-block;
+	margin-right: 1em;
+}
